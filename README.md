@@ -1,11 +1,11 @@
-Resque Lock
-===========
+Resque Lock With Callback
+=========================
 
 A [Resque][rq] plugin. Requires Resque 1.7.0.
 
-If you want only one instance of your job queued at a time, , and want to be be able to run a callback when
-another instance tries to run while the lock is in effect,
-extend it with this module.
+If you want only one instance of your job queued at a time, and 
+want to be be able to run a callback when a duplicate job tries 
+to run while the lock is in effect, extend it with this module.
 
 For example:
 
